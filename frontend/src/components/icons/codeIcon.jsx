@@ -13,17 +13,17 @@ function CodeIcon() {
 					points="64 88 16 128 64 168"
 					fill="none"
 					stroke="currentColor"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="16"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="16"
 				></polyline>
 				<polyline
 					points="192 88 240 128 192 168"
 					fill="none"
 					stroke="currentColor"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="16"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="16"
 				></polyline>
 				<line
 					x1="160"
@@ -32,9 +32,9 @@ function CodeIcon() {
 					y2="216"
 					fill="none"
 					stroke="currentColor"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="16"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeWidth="16"
 				></line>
 			</svg>
 		</>
