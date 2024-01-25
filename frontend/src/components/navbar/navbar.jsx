@@ -7,7 +7,7 @@ function Navbar() {
 		<>
 			<header className="header" id="header">
 				<nav className="nav container">
-					<a href="/" className="nav__logo">
+					<a href="/" id="brand__name" className="nav__logo">
 						Tomáš Bosák
 					</a>
 

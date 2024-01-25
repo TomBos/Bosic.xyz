@@ -179,10 +179,6 @@ img {
 	font-weight: var(--font-medium);
 }
 
-.nav__logo:hover {
-	color: var(--first-color);
-}
-
 .nav__toggle {
 	font-size: 1.1rem;
 	cursor: pointer;
@@ -229,6 +225,12 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#brand__name{
+  font-size: 35px;
+}
+
+
 
 body {
 	margin: 0;
