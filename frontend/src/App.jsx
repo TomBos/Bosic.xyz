@@ -1,22 +1,20 @@
-import "./assets/css.css";
 import "./main.scss";
-
+import "./app.scss";
 
 import Navbar from "./components/navbar/navbar";
 import Blob from "./components/icons/blob";
+import InfoTab from "./components/infoTab/infoTab";
 
 function App() {
 	return (
 		<>
-		<Navbar />
-   
-    
-    <div className="section">
-     
-      <Blob/>
-    </div>
-    
-
+			<Navbar />
+			<div className="section">
+				<div id="hero__section">
+          <InfoTab className="infoTab" />
+					<Blob />
+				</div>
+			</div>
 
 			<div className="custom-shape-divider-bottom-1706206790">
 				<svg

@@ -1,5 +1,5 @@
 .custom-shape-divider-bottom-1706206790 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .blob{
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -17,3 +17,8 @@
     line-height: 0;
 }
 
+#hero__section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
