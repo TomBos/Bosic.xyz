@@ -15,7 +15,7 @@ function Navbar() {
 					<div className="nav__menu " id="nav-menu">
 						<ul className="nav__list grid">
 							<li className="nav__item">
-								<a href="#home" className="nav__link active-link">
+								<a href="#" className="nav__link active-link">
 									 Home   <HomeIcon className="nav__icon" />
 								</a>
 							</li>

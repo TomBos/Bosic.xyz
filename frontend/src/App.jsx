@@ -3,14 +3,19 @@ import "./main.scss";
 
 
 import Navbar from "./components/navbar/navbar";
-
+import Blob from "./components/icons/blob";
 
 function App() {
 	return (
 		<>
 		<Navbar />
-    <h1>Web Dev</h1>
-
+   
+    
+    <div className="section">
+     
+      <Blob/>
+    </div>
+    
 
 
 			<div className="custom-shape-divider-bottom-1706206790">
