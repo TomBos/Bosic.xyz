@@ -14,7 +14,7 @@ function TypedReactHook() {
           '<i class="uil uil-java-script nav_icon"></i>Junior Backend Developer',
         ],
         typeSpeed: 150,
-        backSpeed: 400,
+        backSpeed: 90,
         showCursor: false,
         loop: true,
       };
