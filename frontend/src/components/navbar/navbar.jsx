@@ -1,6 +1,7 @@
 import HomeIcon from "../icons/homeIcon";
 import CodeIcon from "../icons/codeIcon";
 import GithubIcon from "../icons/githubIcon";
+import "./navbar.scss";
 
 function Navbar() {
 	return (
@@ -15,27 +16,24 @@ function Navbar() {
 						<ul className="nav__list grid">
 							<li className="nav__item">
 								<a href="#home" className="nav__link active-link">
-									<HomeIcon className="nav__icon" /> Home
+									 Home   <HomeIcon className="nav__icon" />
 								</a>
 							</li>
 
 							<li className="nav__item">
 								<a href="#services" className="nav__link">
-									<CodeIcon className="nav__icon" /> Services
+									 Services   <CodeIcon className="nav__icon" />
 								</a>
 							</li>
 
 							<li className="nav__item">
 								<a href="#portfolio" className="nav__link">
-									<GithubIcon className="nav__icon" /> Portfolio
+									 Portfolio  <GithubIcon className="nav__icon" />
 								</a>
 							</li>
 
 						</ul>
-						<i
-							className="uil uil-times nav__close nav__icon"
-							id="nav-close"
-						></i>
+					
 					</div>
 
 					
