@@ -173,59 +173,11 @@ img {
 	background-color: var(--body-color);
 }
 
-/*==================== NAV ====================*/
-.nav {
-	max-width: 968px;
-	height: calc(var(--header-height) + 1.5rem);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.nav__logo,
-.nav__toggle {
-	color: var(--title-color);
-	font-weight: var(--font-medium);
-}
-
-.nav__toggle {
-	font-size: 1.1rem;
-	cursor: pointer;
-}
-
-.nav__toggle:hover {
-	color: var(--first-color);
-}
-
-
-.nav__link {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-size: var(--small-font-size);
-	color: var(--title-color);
-	font-weight: var(--font-medium);
-  &:hover {
-    color: var(--first-color);
-  }
-}
-
-
-.nav__icon {
-	font-size: 1.2rem;
-	padding-bottom: var(--mb-0-25);
-}
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#brand__name{
-  font-size: 35px;
-}
-
-
 
 body {
 	margin: 0;
@@ -248,21 +200,6 @@ body {
 .main,
 .footer__container {
 	padding: 0 1rem;
-}
-
-.nav__list {
-	display: flex;
-	column-gap: 2rem;
-}
-
-
-
-/* Active link */
-.active-link {
-	color: var(--first-color);
-}
-ct .scroll-header {
-	box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*========== SCROLL BAR ==========*/
