@@ -8,7 +8,7 @@
 }
 
 #hi {
-	font-size: 5rem;
+	font-size: 6rem;
 	font-weight: bolder;
 	text-align: center;
 	margin-top: 100px;
@@ -19,11 +19,38 @@
 }
 
 .home__subtitle {
-	font-size: 4rem;
-    font-weight: bold;
+	font-size: 5rem;
+	font-weight: bold;
 	margin-bottom: var(--mb-0-75);
 }
 
 .home__description {
 	margin-bottom: var(--mb-2);
+}
+
+.home__social {
+	display: flex;
+    margin-top: 7rem;
+	flex-direction: column;
+}
+
+.home__social-icon {
+	font-size: 2rem;
+	color: black;
+	&:hover {
+		color: var(--first-color);
+	}
+}
+
+.home__content {
+	padding-top: 3.5rem;
+}
+
+.home__icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.auto__type{
+	font-size: 3rem;
 }
