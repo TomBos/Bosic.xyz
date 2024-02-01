@@ -1,0 +1,42 @@
+.flex__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.emoji__container {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px; /* Adjust margin as needed */
+    margin-bottom: 0;
+}
+
+
+.heading__emoji{
+    height: 20px;
+    padding-right: .5rem;
+    
+}
+
+.heading{
+    
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.links__container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.href {
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.arrow__icon {
+    color: black;
+}

@@ -1,12 +1,15 @@
 import "./main.scss";
 import Navbar from "./components/navbar/navbar";
+import Hero from "./components/hero/hero";
+import Portfolio from "./components/portfolio/portfolio";
 
 function App() {
 	return (
 		<>
 			<Navbar />
 			<div className="container">
-				<h2>Hello World 2</h2>
+				<Hero />
+				<Portfolio />
 			</div>
 		</>
 	);
