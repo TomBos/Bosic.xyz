@@ -2,7 +2,9 @@ FROM node
 
 WORKDIR /app
 
-COPY package.json .
+
+
+COPY ./frontend/package.json .
 RUN npm i
 
 COPY . .
