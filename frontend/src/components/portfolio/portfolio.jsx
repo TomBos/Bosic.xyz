@@ -7,7 +7,7 @@ function Portfolio() {
 			<div className="flex__container">
 				<div className="emoji__container">
 					<h1 className="heading__emoji">✍️</h1>
-					<h1 className="heading">Selected Work</h1>
+					<h1 className="heading__portfolio">Selected Work</h1>
 				</div>
 				<div className="links__container">
 					<a
