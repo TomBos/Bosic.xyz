@@ -132,7 +132,7 @@ function App() {
 									alt="Talker"
 									height="273"
 									width="2500"
-									lo0ading="lazy"
+									loading="lazy"
 									className="image-project condensed "
 								/>
 							</div>
@@ -173,8 +173,67 @@ function App() {
 							</div>
 						</a>
 
-						{/* ADD IT HERE   */}
-
+						<a
+							href="https://github.com/wodosharlatan/QuickNote"
+							className="div-project-card half card-m-left fill-joyful w-inline-block"
+						>
+							<div className="div-project-content">
+								<h3 className="h3 selected-work">Quick Note</h3>
+								<p className="body-paragraph card truncate">
+									Super simple note taking app, Quick Note is a simple note
+									taking app that helps you to take notes, create to-do lists,
+									and manage users.
+									<br />
+								</p>
+								<div className="div-view-project">
+									<div className="body-paragraph high-emphasis selected-work fa-solid"></div>
+									<div className="body-paragraph high-emphasis selected-work">
+										View Project
+									</div>
+									<div className="body-paragraph high-emphasis selected-work fa-light">
+										
+									</div>
+								</div>
+							</div>
+							<img
+								src="./QuickNote.png"
+								width="700"
+								height="300"
+								alt=""
+								className="image-project half image-project-quicknote"
+							/>
+						</a>
+						<a
+							href="https://github.com/wodosharlatan"
+							className="div-project-card half card-m-right fill-homerun w-inline-block"
+						>
+							<div className="div-project-content">
+								<h3 className="h3 selected-work">API Projects</h3>
+								<p className="body-paragraph card truncate">
+									I have worked on several API projects, including a shared
+									shopping list, API for e-shop, music player and a image saving
+									server.
+									<br />
+								</p>
+								<div className="div-view-project">
+									<div className="body-paragraph high-emphasis selected-work fa-solid"></div>
+									<div className="body-paragraph high-emphasis selected-work">
+										View Projects
+									</div>
+									<div className="body-paragraph high-emphasis selected-work fa-light">
+										
+									</div>
+								</div>
+							</div>
+							<img
+								src="./Gears.png"
+								width="494"
+								height="273"
+								sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, 43vw"
+								alt=""
+								className="image-project half"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -232,6 +291,21 @@ function App() {
 									Jičín, Czech Republic
 								</h5>
 								<h5 className="body-paragraph">Junior Software Tester</h5>
+							</div>
+						</div>
+						<div className="div-block-6">
+							<div className="div-work-history mb-25">
+								<h5 className="heading-7">weekends</h5>
+								<h5 className="body-paragraph high-emphasis">
+									Trade Certificate
+								</h5>
+								<h5
+									id="Company-Location"
+									className="body-paragraph low-emphasis"
+								>
+									Prague, Czech Republic
+								</h5>
+								<h5 className="body-paragraph">Commissioned projects</h5>
 							</div>
 						</div>
 					</div>
@@ -614,7 +688,7 @@ function App() {
 					<div className="div-text-l">
 						<p className="body-hero contact">
 							Are you interested in collaborating or want to connect or chat? If
-							so, hit the contact button down below or{" "}
+							so, hit the contact button down below or
 							<a
 								href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-bos%C3%A1k/"
 								target="_blank"
@@ -639,7 +713,7 @@ function App() {
 						/>
 						<img
 							src="./coffee.jpg"
-							alt="coffe "
+							alt="coffee"
 							className="image-placement small long"
 						/>
 					</div>
