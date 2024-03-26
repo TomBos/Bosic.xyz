@@ -19,7 +19,13 @@ function App() {
 						aria-label="home"
 						className="w-nav-brand w--current"
 					>
-						LOGO HERE
+						<img
+							height={70}
+							className="logo"
+							src="./B.svg"
+							alt="logo"
+							sizes="(max-width: 767px) 100vw, 43vw"
+						/>
 					</a>
 					<nav role="navigation" className="w-nav-menu">
 						<a href="#section-home" className="navigation-item w-nav-link">
@@ -688,7 +694,7 @@ function App() {
 					<div className="div-text-l">
 						<p className="body-hero contact">
 							Are you interested in collaborating or want to connect or chat? If
-							so, hit the contact button down below or
+							so, hit the contact button down below or &nbsp;
 							<a
 								href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-bos%C3%A1k/"
 								target="_blank"
