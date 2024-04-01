@@ -22,18 +22,10 @@ app.use(bodyParser.json());
 // Serve static files
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// Set EJS as the view engine
-app.set('view engine', 'ejs');
-
 
 // Home route
-app.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, "dist", "index.html"));
-});
-
-// 404 route
 app.get("*", (req, res) => {
-	res.render(path.join(__dirname, "dist", "index.html"));
+	res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
 
 app.listen(PORT, HOST, () => {

@@ -1,34 +1,17 @@
-import "./main.scss";
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import Projects from "./components/projects";
-import About from "./components/about";
-import Contact from "./components/contact";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './views/HomePage';
 
 function App() {
-	return (
-		<>
-
-			{/* Navbar Component (1) */}
-			<Navbar />
-			
-
-			{/* Hero Section Component (1) */}
-			<Hero />
-
-
-			{/* Projects Components (1L-2S) */}
-			<Projects />
-
-
-			{/* About Section Component (1) */}
-			<About />
-
-			{/* Contact Section Component (1) */}
-			<Contact />
-			
-		</>
-	);
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog" element={<h1>Not ready yet!</h1>} />
+        <Route path="*" element={<h1>404 - Page not found</h1>} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
