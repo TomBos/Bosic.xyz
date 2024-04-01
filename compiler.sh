@@ -2,7 +2,7 @@ cd frontend
 npm i && npm run build
 
 cd ..
-mv frontend/dist backend
+cp frontend/dist backend -rf
 cd backend 
 npm i && npm run dev
 
