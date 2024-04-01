@@ -1,4 +1,14 @@
+import DoubleLengthProject from "../controllers/project_double";
+import SingleProject from "../controllers/project_single";
+
 function Projects() {
+  const TalkerDescription =
+    "Talker is a chat app with built-in file sharing. Connect instantly, exchange files effortlessly. Enjoy real-time communication in your team.";
+  const QuickNoteDescription =
+    "Super simple note taking app, Quick Note is a simple note taking app that helps you to take notes, create to-do lists, and manage users.";
+  const APIProjectsDescrition =
+    "I have worked on my several API projects, including a shared shopping list, API for e-shop, music player and a image saving server. ";
+
   return (
     <div id="section-work" className="content-section">
       <div className="section-header w-container">
@@ -23,136 +33,42 @@ function Projects() {
       </div>
       <div className="section-homepage w-container">
         <div className="div-card-list">
-          <a
+          <DoubleLengthProject
+            name="Talker"
+            description={TalkerDescription}
             href="https://github.com/wodosharlatan/Talker"
-            target="_blank"
-            className="div-project-card full fill-talker w-inline-block "
-          >
-            <div className="div-project-content">
-              <h3 className="h3 selected-work">Talker</h3>
-              <p className="body-paragraph truncate">
-                Talker is a chat app with built-in file sharing. Connect
-                instantly, exchange files effortlessly. Enjoy real-time
-                communication in your team.
-              </p>
-              <div className="div-view-project">
-                <div className="body-paragraph high-emphasis selected-work fa-solid"></div>
-                <div className="body-paragraph high-emphasis selected-work">
-                  View Project
-                </div>
-                <div className="body-paragraph high-emphasis selected-work fa-light">
-                  
-                </div>
-              </div>
-            </div>
-            <div className="project-image-border">
-              <img
-                src="./Talker.png"
-                alt="Talker"
-                height="273"
-                width="2500"
-                loading="lazy"
-                className="image-project condensed "
-              />
-            </div>
-          </a>
-          <a
-            href="https://github.com/wodosharlatan/Talker"
-            target="_blank"
-            className="div-project-card half card-m-left fill-bb hidden w-inline-block"
-          >
-            <div className="div-project-content">
-              <h3 className="h3 selected-work">Talker</h3>
-              <p className="body-paragraph truncate">
-                Talker is a chat app with built-in file sharing. Connect
-                instantly, exchange files effortlessly. Enjoy real-time
-                communication in your team.
-              </p>
-              <div className="div-view-project">
-                <div className="body-paragraph high-emphasis selected-work fa-solid">
-                  <br />
-                </div>
-                <div className="body-paragraph high-emphasis selected-work">
-                  View Project
-                </div>
-                <div className="body-paragraph high-emphasis selected-work fa-light">
-                  
-                </div>
-              </div>
-            </div>
-            <div className="project-image-border-mobile">
-              <img
-                src="./Talker.png"
-                alt="Talker"
-                height="273"
-                width="2500"
-                loading="lazy"
-                className="image-project condensed"
-              />
-            </div>
-          </a>
+            imgSource="./Talker.png"
+            alt="Talker"
+          />
 
-          <a
+          <SingleProject
+            fill={
+              "div-project-card half card-m-left fill-joyful w-inline-block"
+            }
+            name="Quick Note"
+            description={QuickNoteDescription}
             href="https://github.com/wodosharlatan/QuickNote"
-            className="div-project-card half card-m-left fill-joyful w-inline-block"
-          >
-            <div className="div-project-content">
-              <h3 className="h3 selected-work">Quick Note</h3>
-              <p className="body-paragraph card truncate">
-                Super simple note taking app, Quick Note is a simple note taking
-                app that helps you to take notes, create to-do lists, and manage
-                users.
-                <br />
-              </p>
-              <div className="div-view-project">
-                <div className="body-paragraph high-emphasis selected-work fa-solid"></div>
-                <div className="body-paragraph high-emphasis selected-work">
-                  View Project
-                </div>
-                <div className="body-paragraph high-emphasis selected-work fa-light">
-                  
-                </div>
-              </div>
-            </div>
-            <img
-              src="./QuickNote.png"
-              width="700"
-              height="300"
-              alt=""
-              className="image-project half image-project-quicknote"
-            />
-          </a>
-          <a
+            imgSource="./QuickNote.png"
+            alt="Quick Note"
+            width={700}
+            height={300}
+          />
+
+          <SingleProject
+            fill={
+              "div-project-card half card-m-right fill-homerun w-inline-block"
+            }
+            name="API Projects"
+            description={APIProjectsDescrition}
             href="https://github.com/wodosharlatan"
-            className="div-project-card half card-m-right fill-homerun w-inline-block"
-          >
-            <div className="div-project-content">
-              <h3 className="h3 selected-work">API Projects</h3>
-              <p className="body-paragraph card truncate">
-                I have worked on several API projects, including a shared
-                shopping list, API for e-shop, music player and a image saving
-                server.
-                <br />
-              </p>
-              <div className="div-view-project">
-                <div className="body-paragraph high-emphasis selected-work fa-solid"></div>
-                <div className="body-paragraph high-emphasis selected-work">
-                  View Projects
-                </div>
-                <div className="body-paragraph high-emphasis selected-work fa-light">
-                  
-                </div>
-              </div>
-            </div>
-            <img
-              src="./Gears.png"
-              width="494"
-              height="273"
-              sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, 43vw"
-              alt=""
-              className="image-project half"
-            />
-          </a>
+            imgSource="./Gears.png"
+            alt="API Projects"
+            width={494}
+            height={273}
+            optionalSizes={
+              "(max-width: 479px) 100vw, (max-width: 767px) 90vw, 43vw"
+            }
+          />
         </div>
       </div>
     </div>
