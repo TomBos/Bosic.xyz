@@ -1,3 +1,5 @@
+import ImageDiv from "../controllers/about_image_div";
+
 function About() {
   return (
     <div id="section-about" className="content-section">
@@ -103,27 +105,9 @@ function About() {
                     organized and efficient database structures.
                   </p>
                   <div className="div-image-skills">
-                    <img
-                      src="./mysql-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                    />
-                    <img
-                      src="./mongodb-original.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                    />
-                    <img
-                      src="./googlecloud.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                    />
+                    <ImageDiv imgSrc="./mysql-plain.svg" />
+                    <ImageDiv imgSrc="./mongodb-original.svg" />
+                    <ImageDiv imgSrc="./googlecloud.svg" />
                   </div>
                 </div>
               </div>
@@ -143,30 +127,9 @@ function About() {
                     coming up with genuine solutions that work.
                   </p>
                   <div className="div-image-skills" aria-hidden="true">
-                    <img
-                      src="./react-original.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./sass-original.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./javascript-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
+                    <ImageDiv imgSrc="./react-original.svg" />
+                    <ImageDiv imgSrc="./sass-original.svg" />
+                    <ImageDiv imgSrc="./javascript-plain.svg" />
                   </div>
                 </div>
               </div>
@@ -185,38 +148,10 @@ function About() {
                     changes, enabling swift and reliable software delivery.
                   </p>
                   <div className="div-image-skills" aria-hidden="true">
-                    <img
-                      src="./docker-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./git-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./github-original.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./gitlab-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
+                    <ImageDiv imgSrc="./docker-plain.svg" />
+                    <ImageDiv imgSrc="./git-plain.svg" />
+                    <ImageDiv imgSrc="./github-original.svg" />
+                    <ImageDiv imgSrc="./gitlab-plain.svg" />
                   </div>
                 </div>
               </div>
@@ -236,30 +171,9 @@ function About() {
                     same on any browser.&nbsp;
                   </p>
                   <div className="div-image-skills" aria-hidden="true">
-                    <img
-                      src="./windows.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./apple-original.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./linux-original.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
+                    <ImageDiv imgSrc="./windows.svg" />
+                    <ImageDiv imgSrc="./apple-original.svg" />
+                    <ImageDiv imgSrc="./linux-original.svg" />
                   </div>
                 </div>
               </div>
@@ -279,30 +193,9 @@ function About() {
                     and a little bit of improvisation.
                   </p>
                   <div className="div-image-skills" aria-hidden="true">
-                    <img
-                      src="./android-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./csharp-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./androidstudio.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
+                    <ImageDiv imgSrc="./android-plain.svg" />
+                    <ImageDiv imgSrc="./csharp-plain.svg" />
+                    <ImageDiv imgSrc="./androidstudio.svg" />
                   </div>
                 </div>
               </div>
@@ -322,30 +215,9 @@ function About() {
                     devising authentic solutions for backend development.
                   </p>
                   <div className="div-image-skills" aria-hidden="true">
-                    <img
-                      src="./nodejs-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./npm.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
-                    <img
-                      src="./php-plain.svg"
-                      width="35"
-                      height="35"
-                      alt=""
-                      className="image-skill"
-                      aria-hidden="true"
-                    />
+                    <ImageDiv imgSrc="./nodejs-plain.svg" />
+                    <ImageDiv imgSrc="./npm.svg" />
+                    <ImageDiv imgSrc="./php-plain.svg" />
                   </div>
                 </div>
               </div>
