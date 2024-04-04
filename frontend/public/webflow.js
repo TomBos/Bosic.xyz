@@ -9562,23 +9562,7 @@ __p+='`),
 			Wi(t), Jm({ store: t, elementApi: Re });
 		}
 		function Ui({ store: e, rawData: t, allowEvents: r, testManual: n }) {
-			let { ixSession: o } = e.getState();
-			t && e.dispatch((0, Oe.rawDataImported)(t)),
-				o.active ||
-					(e.dispatch(
-						(0, Oe.sessionInitialized)({
-							hasBoundaryNodes: !!document.querySelector(Mi),
-							reducedMotion:
-								document.body.hasAttribute("data-wf-ix-vacation") &&
-								window.matchMedia("(prefers-reduced-motion)").matches,
-						})
-					),
-					r &&
-						(mV(e),
-						vV(),
-						e.getState().ixSession.hasDefinedMediaQueries && uV(e)),
-					e.dispatch((0, Oe.sessionStarted)()),
-					hV(e, n));
+			return null;
 		}
 		function vV() {
 			let { documentElement: e } = document;
