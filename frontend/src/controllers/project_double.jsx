@@ -27,7 +27,6 @@ function DoubleLengthProject ({ name, description, href, imgSource, alt }) {
                 alt={alt}
                 height="273"
                 width="2500"
-                loading="lazy"
                 className="image-project condensed "
               />
             </div>
