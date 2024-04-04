@@ -22,12 +22,8 @@ app.use(bodyParser.json());
 // Serve static files
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// Home route
-app.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, "dist", "index.html"));
-});
 
-// 404 route
+// Home route
 app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
