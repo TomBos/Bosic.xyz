@@ -57,6 +57,18 @@ function About() {
           </div>
           <div className="div-block-6">
             <div className="div-work-history mb-25">
+              <h5 className="heading-7">2024 - present</h5>
+              <h5 className="body-paragraph high-emphasis">
+                MegaKnihy.cz
+              </h5>
+              <h5 id="Company-Location" className="body-paragraph low-emphasis">
+                Prague, Czech Republic
+              </h5>
+              <h5 className="body-paragraph">Junior Full Stack Developer</h5>
+            </div>
+          </div>
+          <div className="div-block-6">
+            <div className="div-work-history mb-25">
               <h5 className="heading-7">weekends</h5>
               <h5 className="body-paragraph high-emphasis">
                 Trade Certificate
@@ -66,7 +78,7 @@ function About() {
               </h5>
               <h5 className="body-paragraph">Commissioned projects</h5>
             </div>
-          </div>
+          </div>   
         </div>
       </div>
       <div className="section-container my-skillsets w-container">
