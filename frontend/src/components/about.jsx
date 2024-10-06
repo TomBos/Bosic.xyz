@@ -57,7 +57,7 @@ function About() {
           </div>
           <div className="div-block-6">
             <div className="div-work-history mb-25">
-              <h5 className="heading-7">2024 - present</h5>
+              <h5 className="heading-7">2024 - The present</h5>
               <h5 className="body-paragraph high-emphasis">
                 MegaKnihy.cz
               </h5>
