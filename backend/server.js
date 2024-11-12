@@ -25,7 +25,11 @@ app.use(express.static(path.join(__dirname, 'dist')));
 
 // Home route
 app.get("*", (req, res) => {
-	res.sendFile(path.join(__dirname, "dist", "index.html"));
+	if (req.protocol == 'http') {
+            res.send('terminal');
+	} else {
+	    res.sendFile(path.join(__dirname, "dist", "index.html"));
+	}
 });
 
 app.listen(PORT, HOST, () => {
