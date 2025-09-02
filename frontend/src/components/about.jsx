@@ -27,27 +27,25 @@ function About() {
         <div className="div-text-l j-top">
           <h4 className="heading-6">My&nbsp;Story</h4>
           <p className="body-paragraph">
-            As a Backend Developer from the Czech Republic, I'm passionate about
-            crafting web applications and continuously honing my skills. With
-            over 4 years of experience, I specialize in JavaScript, delving into
-            frameworks like Node.js, React, and Docker. I've also ventured into
-            C# and .NET Framework developing mobile apps.
-            <br />
-            <br />
-            My proficiency extends to html, css, php, git as well as SQL and
-            NoSQL databases. Comfortable with both Windows and Linux systems.
-            <br />
-            <br />I operate at an English proficiency level of B2, adept at
-            reading documentation and coding in both languages. Feel free to
-            explore my open-source projects on my GitHub profile. Thanks for
-            stopping by, and have a fantastic day ahead!
+			I’m a backend Dev from Czech Republic who lives in the terminal.
+			I spend most of my time building web apps with PHP, managing databases (SQL & NoSQL), and automating stuff with Bash on Linux (I use Arch btw).
+			I also tinker with C, recreating protocols like FTP from scratch.
+			<br />
+			<br />
+			I’m comfortable navigating both Windows (although i havent used it in years) and Linux environments, but Arch is where I feel at home.
+			My English is solid enough to read docs and code without issues.
+			<br />
+			<br />
+			Check out my open-source projects on GitHub or SourceHut if you want to see what I actually build.
+			<br />
+			<br />
           </p>
         </div>
         <div className="div-text-r j-top">
           <h4 className="heading-6">Where I've Worked</h4>
           <div className="div-block-6">
             <div className="div-work-history mb-25">
-              <h5 className="heading-7">2023 - 2023 (2 Months)</h5>
+              <h5 className="heading-7">2023 - 2023</h5>
               <h5 className="body-paragraph high-emphasis">CIS</h5>
               <h5 id="Company-Location" className="body-paragraph low-emphasis">
                 Jičín, Czech Republic
@@ -57,7 +55,7 @@ function About() {
           </div>
           <div className="div-block-6">
             <div className="div-work-history mb-25">
-              <h5 className="heading-7">2024 - The present</h5>
+              <h5 className="heading-7">2024 - 2025</h5>
               <h5 className="body-paragraph high-emphasis">
                 MegaKnihy.cz
               </h5>

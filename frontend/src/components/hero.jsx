@@ -11,8 +11,8 @@ function Hero() {
           </h1>
           <p className="body-hero">
             I am a Backend Developer with 4+ years of experience, focusing on
-            web applications. I mostly write code in JavaScript. I am also a big
-            fan of open-source projects and coffee.
+            web applications. I mostly write code in PHP and JavaScript. I am also a big
+            fan of open-source projects and bash.
           </p>
         </div>
         <div className="div-image-r">

@@ -20,7 +20,7 @@ function Projects() {
             </div>
             <div className="column-view-more w-col w-col-3">
               <a
-                href="https://github.com/wodosharlatan"
+                href="https://github.com/TomBos"
                 target="_blank"
                 className="link-block w-inline-block"
               >
@@ -36,7 +36,7 @@ function Projects() {
           <DoubleLengthProject
             name="Talker"
             description={TalkerDescription}
-            href="https://github.com/wodosharlatan/Talker"
+            href="https://github.com/TomBos/Talker"
             imgSource="./Talker.png"
             alt="Talker"
           />
@@ -47,7 +47,7 @@ function Projects() {
             }
             name="Quick Note"
             description={QuickNoteDescription}
-            href="https://github.com/wodosharlatan/QuickNote"
+            href="https://github.com/TomBos/QuickNote"
             imgSource="./QuickNote.png"
             alt="Quick Note"
             width={700}
@@ -60,7 +60,7 @@ function Projects() {
             }
             name="API Projects"
             description={APIProjectsDescrition}
-            href="https://github.com/wodosharlatan"
+            href="https://github.com/TomBos"
             imgSource="./Gears.png"
             alt="API Projects"
             width={494}
